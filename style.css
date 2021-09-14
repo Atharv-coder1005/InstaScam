@@ -32,8 +32,9 @@ form{
 
 .input{
  position:absolute;
- top:50%;
+ top:50px;
  margin:auto;
  display:flex;
  flex-direction:column;
+ align-items:center;
 } 
