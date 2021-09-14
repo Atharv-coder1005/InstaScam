@@ -32,7 +32,7 @@ form{
 
 .input{
  position:absolute;
- top:30px;
+ top:50%;
  margin:auto;
  display:flex;
  flex-direction:column;
