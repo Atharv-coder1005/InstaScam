@@ -37,4 +37,7 @@ form{
 .input input{
  width:260px;
  height:45px;
+ outline:none;
+ padding:0 .7rem;
+ border:1px solid black;
 }
