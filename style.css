@@ -3,3 +3,12 @@
  padding:0;
  box-sizing:border-box;
 }
+
+#formbox{
+ position:relative;
+ width:300px;
+ height:400px;
+ background:#3641b7;
+ z-index:1;
+ overflow:hidden;
+}
