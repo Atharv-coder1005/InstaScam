@@ -7,7 +7,7 @@
 .container{
  position:relative;
  align-items:center;
- top:30px;
+ top:50px;
  margin:auto;
  width:300px;
  height:400px;
@@ -32,12 +32,8 @@ form{
 
 .input{
  position:relative;
+ display:flex;
+ flex-direction:column;
+ align-items:center;
+ justify-content:space-evenly;
 } 
-
-.input input{
- width:260px;
- height:45px;
- outline:none;
- padding:0 .7rem;
- border:1px solid black;
-}
