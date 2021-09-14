@@ -31,7 +31,8 @@ form{
  }
 
 .input{
- position:relative;
+ position:absolute;
+ margin:auto;
  display:flex;
  flex-direction:column;
  align-items:center;
