@@ -32,4 +32,9 @@ form{
 
 .input{
  position:relative;
+} 
+
+.input input{
+ width:260px;
+ height:45px;
 }
