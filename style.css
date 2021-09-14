@@ -6,6 +6,7 @@
 
 .container{
  position:relative;
+ align-items:center;
  margin:auto;
  width:300px;
  height:400px;
