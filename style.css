@@ -65,3 +65,11 @@ img{
         margin-top: 30px;
         color: rgb(0, 0, 95);
     }
+
+.forget {
+         position:absolute;
+         display: bolck;
+         margin-right: auto;
+         margin-left: auto;
+         
+}
