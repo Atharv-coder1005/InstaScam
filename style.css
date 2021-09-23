@@ -71,8 +71,10 @@ img{
     }
 
 .forget {
-         position:absolute;
-         display: bolck;
+         position:relative;
+         display: flex;
+         text-align: center;
+         justify-content: center;
          margin-right: auto;
          margin-left: auto;
          
