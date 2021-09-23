@@ -63,7 +63,7 @@ img{
 
 .forget{
          position:relative;
-         display: hidden;
+         display: none;
          text-align: center;
          justify-content: center;
          margin-right: auto;
