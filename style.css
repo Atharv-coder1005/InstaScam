@@ -1,6 +1,6 @@
-body{
-background-image: url('white.jpg');
-z-index: -12;
+*{
+margin: 0;
+padding: 0;
 }
 
 .container{
