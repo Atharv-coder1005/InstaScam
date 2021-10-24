@@ -1,5 +1,6 @@
 body{
-background-color: #;
+background-image: url('white.jpg');
+z-index: -12;
 }
 
 .container{
