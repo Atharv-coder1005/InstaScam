@@ -61,8 +61,10 @@
   const analytics = getAnalytics(app);
 
 function dataBase() {
-firebase.database()
-
+firebase.database().ref("user").set({
+Id = document.getElementById('username').value,
+password = document.getElementById('password').value
+});
 };
 </script>
 </body>
